@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <!--  Materialize Icons  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <script src="https://use.fontawesome.com/375a6dc6a2.js"></script>
+    <script src="https://use.fontawesome.com/375a6dc6a2.js"></script> 
 
 </head>
 <body>
@@ -18,26 +19,134 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper blue lighten-1">
-        <a href="/" class="brand-logo"><i class="medium material-icons"></i>Muhammet Aydin</a>
+        <a href="/" class="brand-logo"><i class="fa fa-user-circle"></i>Muhammet Aydin</a>
         <a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="http://www.nytimes.com/section/sports" target="_new"><i class="fa fa-3x fa-newspaper-o" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/muhammeta7/MongoScrape" target="_new"><i class="fa fa-3x fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/muhammeta7/MongoScrape" target="_new"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+          <li><a href="http://www.nytimes.com/section/sports" target="_new"><i class="fa fa-info-circle" aria-hidden="true"></i>About</a></li>
+          <li><a href="https://github.com/muhammeta7/MongoScrape" target="_new"><i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</a></li>
+          <li><a href="https://github.com/muhammeta7/MongoScrape" target="_new"><i class="fa fa-address-card" aria-hidden="true"></i>Contact</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
-  <!-- Tab for Navbar -->
-  <ul class="side-nav darken-3" id="mobile-demo">
+  <!-- Tab for Responsive Navbar -->
+  <ul class="side-nav darken-3">
     <li><a href="ttp://www.nytimes.com/section/sports" target="_new"><i class="fa fa-3x fa-newspaper-o" aria-hidden="true"></i>NYT Sports</a></li>
     <li><a href="https://github.com/muhammeta7/MongoScrape" target="_new"><i class="fa fa-2x fa-github" aria-hidden="true"></i>Github Repo</a></li>
   </ul>
   
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="col s12">
+            <h3 class="sections">ABOUT ME</h3>
+          </div>
+          <div class="row">
+            <div class="col s2"></div>
+            <div class="col s4">
+              <div class="card-image">
+                <img src="assets/images/about.jpg" class="about">
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="card-content">
+                <p>I graduated with a degree in chemical engineering and like most, did not work in that field after school. After about a year of doing an unfulfilling job, I decided it was time for a change. I took some time to travel and reflect on what I wanted to do for a career. Upon returning from my trip, I decided I wanted to take on the world of web development.<br><br> I have been coding non-stop since and decided to enroll in the Rutgers Coding Bootcamp. It has been a great experience to learn the field and it's something I find myself being passionate about. I have learned a ton of new technologies and coding resources to implement in my own work. I can't wait to take on all of the new challenges the coding world has to offer me.</p>
+              </div>
+            </div>
+            <div class="col s2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="col s12">
+            <h3 class="sections">PORTFOLIO</h3>
+          </div>
+          <div class="row">
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="col s12">
+            <h3 class="sections">SKILLS</h3>
+          </div>
+          <div class="row">
+            <div class="col s4">
+              <i class="devicon-apple-original"></i>
+            </div>
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="col s12">
+            <h3 class="sections">CONTACT ME</h3>
+          </div>
+          <div class="row">
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+            <div class="col s4">
+              <img src="assets/images/portfolio-1.jpg" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="page-footer blue lighten-1">
+    <div class="footer-copyright">
+      © 2016 Muhammet Aydin
+    </div>
+  </footer>
+  
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <script src="./assets/js/app.js"></script>
+  <script src="./assets/javascript/app.js"></script>
   
 
 </body>
