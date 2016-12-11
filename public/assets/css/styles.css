@@ -1,3 +1,9 @@
+/*Navbar*/
+.navbar-fixed .brand-logo {
+  padding-left: 40px;
+}
+
+
 /*Headings for Each Section*/
 .sections {
   text-align: center;
@@ -5,6 +11,12 @@
   padding-bottom: 25px;
 }
 
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
 /*About Me Section*/
 .card .card-image1 img {
   display: block;
@@ -15,12 +27,23 @@
   top: 0;
   bottom: 0;
   padding-bottom: 30px;
-  width: 342px;
-  height: 350px;
+  width: 415px;
+  height: 415px;
+  overflow: auto;
+  clear: both;
 }
 
-img {
-  padding-bottom: 30px;
+.card-panel1{
+  overflow: auto;
+  clear: both;
+}
+
+.card .card-content p {
+    margin: 0;
+    color: inherit;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
 }
 
 /*Footer*/
