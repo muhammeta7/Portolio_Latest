@@ -80,12 +80,17 @@
 .card .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
-  padding: 15px;
+  padding: 40px 15px 0px 15px;
 }
 
 /*Cards*/
 .card .card-content .card-title {
     line-height: 24px;
+}
+.card.medium .card-image+.card-content, .card.large .card-image+.card-content {
+  line-height: 24px;
+    max-height: 40%;
+    padding-top: 60px;
 }
 .card-title {
   text-align: center;
