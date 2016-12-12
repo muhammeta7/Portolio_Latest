@@ -26,7 +26,6 @@
   right: 0;
   top: 0;
   bottom: 0;
-  padding-bottom: 30px;
   width: 415px;
   height: 415px;
   overflow: auto;
@@ -45,7 +44,12 @@
     padding: 10px;
     font-size: 16px;
 }
-
+.cardText {
+  font-size: 16px;
+}
+.card.medium{
+  height: 350px
+}
 /*Footer*/
 .footer-copyright {
   text-align: center;
@@ -80,18 +84,25 @@
 }
 
 /*Cards*/
+.card .card-content .card-title {
+    line-height: 24px;
+}
 .card-title {
   text-align: center;
 }
 .cardText {
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .card-panel {
-
+  
 }
 
+.links {
+  font-size: 48px;
+  padding-top: 20px;
+}
 /*Skills*/
 
 
