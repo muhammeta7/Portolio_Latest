@@ -9,6 +9,7 @@
   text-align: center;
   margin-top: 25px;
   padding-bottom: 25px;
+  padding-top: 20px;
 }
 
 .row {
@@ -26,8 +27,8 @@
   right: 0;
   top: 0;
   bottom: 0;
-  width: 415px;
-  height: 415px;
+  width: 350px;
+  height: 350px;
   overflow: auto;
   clear: both;
 }
@@ -83,12 +84,12 @@
   padding: 40px 15px 0px 15px;
 }
 
-/*Cards*/
+/* Portsolio */
 .card .card-content .card-title {
     line-height: 24px;
 }
 .card.medium .card-image+.card-content, .card.large .card-image+.card-content {
-  line-height: 24px;
+    line-height: 24px;
     max-height: 40%;
     padding-top: 60px;
 }
