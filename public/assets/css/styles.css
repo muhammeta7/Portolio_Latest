@@ -17,10 +17,14 @@ nav ul a {
 
 
 /*Headings for Each Section*/
+section {
+  padding-bottom: 30px;
+}
+
 .sections {
   text-align: center;
   margin-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   padding-top: 20px;
   font-family: 'Aref Ruqaa', serif;
 }
@@ -29,7 +33,6 @@ nav ul a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    padding-bottom: 40px;
 }
 /*About Me Section*/
 .card .card-image1 img {
@@ -85,7 +88,7 @@ nav ul a {
 }
 
 .icons {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
