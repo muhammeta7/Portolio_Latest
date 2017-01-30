@@ -36,7 +36,6 @@ section {
 }
 
 
-
 /* Cards */
 .card {
   margin: 40px;
@@ -61,12 +60,11 @@ section {
 }
 
 .card .card-content p {
-    margin: 0;
-    color: inherit;
-    color: white;
-    padding: 10px;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
+  margin: 0;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -76,15 +74,15 @@ section {
   font-size: 20px;
 }
  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#263238+0,58a9ad+100 */
-    background: #263238; /* Old browsers */
-    background: -moz-linear-gradient(top,  #263238 0%, #58a9ad 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #263238 0%,#58a9ad 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #263238 0%,#58a9ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263238', endColorstr='#58a9ad',GradientType=0 ); /* IE6-9 */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#263238+0,58a9ad+100 */
+  background: #263238; /* Old browsers */
+  background: -moz-linear-gradient(top,  #263238 0%, #58a9ad 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #263238 0%,#58a9ad 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #263238 0%,#58a9ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263238', endColorstr='#58a9ad',GradientType=0 ); /* IE6-9 */
 
   }
 
@@ -92,7 +90,10 @@ section {
     flex: 1 0 auto;
   }
 
-/*Portfolio*/
+/*Skills*/
+.card-panel {
+  margin: 0px 60px;
+}
 
 .skillIcons {
   font-size: 60px;
@@ -105,6 +106,8 @@ section {
   padding-bottom: 20px;
 }
 
+/* Portfolio */
+
 .card .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
@@ -112,7 +115,6 @@ section {
   width: 100%;
 }
 
-/* Portfolio */
 .card.medium{
   height: 350px;
   border: 2px solid black;
@@ -144,7 +146,6 @@ section {
   font-size: 48px;
   padding-top: 20px;
 }
-/*Skills*/
 
 
 /*Animations in Portfolio Projects*/
