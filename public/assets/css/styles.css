@@ -1,5 +1,4 @@
 /* Styling Sheet*/
-
 /*Navbar*/
 .navbar-fixed .brand-logo {
   padding-left: 40px;
@@ -33,7 +32,6 @@ section {
   border-bottom: 3px solid white;
 }
 
-
 /* Cards */
 .card {
   margin: 40px;
@@ -44,7 +42,6 @@ section {
 #about, .card {
   margin-top: 35px;
 }
-
 .card-image #about {
   border-radius: 2px 2px 0 0;
   margin-left: 30px;
@@ -54,7 +51,6 @@ section {
   overflow: auto;
   float: left;
 }
-
 .bio {
   color: black;
   padding: 10px;
@@ -65,13 +61,12 @@ section {
   overflow: auto;
   float: left;
 }
-
 /*Footer*/
 .footer-copyright {
   text-align: center;
   font-size: 20px;
 }
- body {
+body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -83,7 +78,6 @@ section {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263238', endColorstr='#58a9ad',GradientType=0 ); /* IE6-9 */
 
   }
-
   main {
     flex: 1 0 auto;
   }
@@ -104,28 +98,33 @@ section {
   padding-bottom: 20px;
 }
 
-#skills, .card {
+#skills .card {
   padding-bottom: 50px;
 }
 
 /* Portfolio */
-.projects {
-  width: 400px;
-  height: 300px;
-  margin-bottom: 20px;
-}
-
-.projectHeaders {
+h5 {
   font-family: 'Aref Ruqaa', serif;
   text-align: center;
   padding-top: 20px;
 }
 
-.activator {
-  padding: 15px;
+.project-images {
+  height: 400px;
+  width: 400px;
 }
 
-/* contact */
+.collapsible-header, .material-icons {
+  color: black;
+}
+.links {
+  font-size: 60px;
+}
+.collapsible-body p {
+  font-size: 20px;
+}
+
+/* Contact*/
 i {
   color: white;
   padding-bottom: 30px;
@@ -144,4 +143,4 @@ i {
   color: black;
 }
 
-/*Animations in Portfolio Projects*/
+
