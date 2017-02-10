@@ -58,6 +58,28 @@ section {
 }
 
 
+/* Portfolio */
+/*h5 {
+  font-family: 'Aref Ruqaa', serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.project-images {
+  height: 400px;
+  width: 400px;
+}
+
+.collapsible-header, .material-icons {
+  color: black;
+}
+.links {
+  font-size: 60px;
+}
+.collapsible-body p {
+  font-size: 20px;
+}*/
+
 /*Skills*/
 .card-panel {
   margin: 0px 60px 0px 60px;
@@ -77,29 +99,6 @@ section {
 #skills .card {
   padding-bottom: 50px;
 }
-
-/* Portfolio */
-h5 {
-  font-family: 'Aref Ruqaa', serif;
-  text-align: center;
-  padding-top: 20px;
-}
-
-.project-images {
-  height: 400px;
-  width: 400px;
-}
-
-.collapsible-header, .material-icons {
-  color: black;
-}
-.links {
-  font-size: 60px;
-}
-.collapsible-body p {
-  font-size: 20px;
-}
-
 /* Contact*/
 i {
   color: white;
