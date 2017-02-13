@@ -102,10 +102,6 @@ section {
   padding-bottom: 50px;
 }
 /* Contact*/
-/*i {
-  color: white;
-  padding-bottom: 30px;
-}*/
 
 #email {
   color: white;
@@ -119,6 +115,12 @@ section {
   text-decoration: underline;
   color: black;
 }
+
+.contactIcons a i {
+  color: white;
+  padding-bottom: 30px;
+}
+
 
 /*Footer*/
 .footer-copyright {
