@@ -144,35 +144,3 @@ main {
 }
 
 
-
-
-
-
-<div class="col s5">
-  <div class="card">
-    <h5><i class="fa fa-bicycle" aria-hidden="true"></i> My Swoleness Pal</h5>
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="project-images" src="assets/images/portfolio-2.jpg">
-    </div>
-    <div class="card-content">
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header"><p><i class="material-icons">description</i>Click to View Summary and Links</p></div>
-          <div class="collapsible-body">
-            <div class="row">
-              <p></p>
-            </div>
-            <div class="row links">
-              <div class="col offset-s2 s3">
-                <a target="_blank" href="https://github.com/muhammeta7/Final-Project"><i class="devicon-github-plain colored links"></i></a>
-              </div>
-              <div class="col offset-s2 s3">
-                <a target="_blank" href="https://my-swoleness-pal.herokuapp.com"><i class="devicon-heroku-plain-wordmark colored links"></i></a>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>*/
