@@ -57,7 +57,6 @@ section {
   margin-left: 20px;
 }
 
-
 /* Portfolio */
 /*h5 {
   font-family: 'Aref Ruqaa', serif;
@@ -69,16 +68,22 @@ section {
   height: 400px;
   width: 400px;
 }
+*/
+.right{
+  position: relative;
+  top: 10px;
+}
 
 .collapsible-header, .material-icons {
   color: black;
 }
 .links {
   font-size: 60px;
+  padding-top: 20px;
 }
 .collapsible-body p {
   font-size: 20px;
-}*/
+}
 
 /*Skills*/
 .card-panel {
@@ -100,10 +105,10 @@ section {
   padding-bottom: 50px;
 }
 /* Contact*/
-i {
+/*i {
   color: white;
   padding-bottom: 30px;
-}
+}*/
 
 #email {
   color: white;
